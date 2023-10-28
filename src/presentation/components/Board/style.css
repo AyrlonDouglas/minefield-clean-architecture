@@ -1,0 +1,36 @@
+table {
+  margin: 0 auto;
+}
+tbody {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  box-sizing: border-box;
+}
+
+tr {
+  display: flex;
+  gap: 4px;
+}
+
+td {
+  width: 48px;
+  height: 48px;
+  border: 1px solid black;
+  user-select: none;
+  transition: border-color 0.25s;
+  padding: 0;
+}
+td:hover {
+  border: 1px solid #646cff;
+}
+.loose-info {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+td.loose-td:hover {
+  border: 1px solid #3c3c4100;
+}
